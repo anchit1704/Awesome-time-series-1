@@ -35,7 +35,8 @@
 3. [visualization](#visualization)
 4. [model](#model)
 5. [strategy](#strategy)
-6. [application](#application)
+6. [Q&A](#Q&A)
+7. [application](#application)
 
 ### property
 
@@ -88,13 +89,35 @@
 
 + TBATS
 
++ ARIMAX
++ ARX-ARMAX
+
++ ARDL(Auto Regressive Distributed Lag) [blog](<http://blog.eviews.com/2017/04/autoregressive-distributed-lag-ardl.html>)
+
+  
+
++ Dynamic Regression Models
+
++ ...
+
+  
+
 
 
 ### strategy
 
 + Machine Learning Strategies for Time Series Prediction [slideshare](<https://www.slideshare.net/gbonte/machine-learning-strategies-for-time-series-prediction>) 
+
 + Machine learning strategies for multi-step-ahead time series forecasting [PhD thesis](http://souhaib-bentaieb.com/pdf/2014_phd.pdf)
+
 + Training Strategies for Time Series: Learning for Prediction, Filtering, and Reinforcement Learning [thesis](www.cs.cmu.edu/~arunvenk/papers/thesis.pdf) 
+
+  
+
+### Q&A
+
++ When to log transform a time series before fitting an ARIMA model [site](https://stats.stackexchange.com/questions/6330/when-to-log-transform-a-time-series-before-fitting-an-arima-model) 
++ Don’t Put Lagged Dependent Variables in Mixed Models [site](<https://statisticalhorizons.com/lagged-dependent-variables>) 
 + 
 
 ### application
@@ -210,7 +233,7 @@
 
 + R package
 
-  [forecast](<https://github.com/robjhyndman/forecast>), [tsfeatures](<https://github.com/robjhyndman/tsfeatures>), tsDyn, ForecastCombinations, [forecastHybrid](https://github.com/ellisp/forecastHybrid)
+  [forecast](<https://github.com/robjhyndman/forecast>), [tsfeatures](<https://github.com/robjhyndman/tsfeatures>), tsDyn, ForecastCombinations, [forecastHybrid](https://github.com/ellisp/forecastHybrid) 
 
 + [prophet](https://github.com/facebookincubator/prophet)
 
