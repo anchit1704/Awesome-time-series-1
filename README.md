@@ -18,34 +18,49 @@
 
 + Complex Seasonal Patterns
 
-  paper: Forecasting time series with complex seasonal patterns using exponential smoothing, Alysha M De Livera, Rob J Hyndman and Ralph D Snyder
+  > paper: Forecasting time series with complex seasonal patterns using exponential smoothing, Alysha M De Livera, Rob J Hyndman and Ralph D Snyder
+  >
+  > blog: <http://businessforecastblog.com/analyzing-complex-seasonal-patterns/>
 
-  blog: <http://businessforecastblog.com/analyzing-complex-seasonal-patterns/>
++ Hierarchical
+
+  > http://robjhyndman.com/papers/hierarchical/
+  >
+  > <http://www.forecastpro.com/Trends/forecasting101January2009.html>
 
 + Highly Frequency
 
-  blog: https://www.zhihu.com/question/26464548
+  > blog: https://www.zhihu.com/question/26464548
 
   
 
 ## Tutorials
 
-1. [property](#property)
-2. [feature](#feature)
-3. [visualization](#visualization)
-4. [model](#model)
-5. [strategy](#strategy)
-6. [Q&A](#Q&A)
-7. [application](#application)
+1. [Architecture](#Architecture)
+2. [Property](#Property)
+3. [Feature](#Feature)
+4. [Visualization](#Visualization)
+5. [Model](#Model)
+6. [Strategy](#Strategy)
+7. [Application](#Application)
+8. [Q&A](#Q&A)
 
-### property
+### Architecture
+
+<div align="center">
+<img src="http://people.duke.edu/~rnau/411flow.gif" width="500" height="600" alt="flow-chat"></img>
+</div>
+
+### Property
 
 + The Ergodic Theorem [the time series chapter in this book](http://www.stat.cmu.edu/~cshalizi/ADAfaEPoV/)
 + 
++ Cross-correlation (Time Delay Analysis)
++ Dynamic time warping
 
+>  https://robjhyndman.com/hyndsight/tscharacteristics/>
 
-
-### feature
+### Feature
 
 + time series feature:
 
@@ -65,13 +80,13 @@
 
   
 
-### visualization
+### Visualization
 
 + Recurrence Plots
 
 
 
-### model
+### Model
 
 + Kalman filter
 
@@ -92,7 +107,7 @@
 + ARIMAX
 + ARX-ARMAX
 
-+ ARDL(Auto Regressive Distributed Lag) [blog](<http://blog.eviews.com/2017/04/autoregressive-distributed-lag-ardl.html>)
++ ARDL(Auto Regressive Distributed Lag) [blog](<http://blog.eviews.com/2017/04/autoregressive-distributed-lag-ardl.html>) 
 
   
 
@@ -102,9 +117,79 @@
 
   
 
++ SVM
+
+  > Time series prediction using support vector machines: a survey
+  >
+  > Support vector machines experts for time series forecasting
+  >
+  > Predicting time series with support vector machines
+
++ Boosting
+
+  > A gradient boosting approach to the Kaggle load forecasting competition
+
++ NARX
+
+  > Long-Term Time Series Prediction with the NARX Network An Empirical Evaluation
+
++ Bayesian neural network (BNN)
+
+  > paper:
+  >
+  > Deep and Confident Prediction for Time Series at Uber [arxiv](<https://arxiv.org/abs/1709.01907>)
+  >
+  > <https://eng.uber.com/neural-networks-uncertainty-estimation/>
 
 
-### strategy
+
++ Neural Network
+
+  > Designing a neural network for forecasting financial time series
+  >
+  > Neural network forecasting for seasonal and trend time series
+  >
+  > 
+  >
+  > RNN:
+  >
+  > Engineering Extreme Event Forecasting at Uber with Recurrent Neural Networks
+  >
+  > LSTM:
+  >
+  > Long Short Term Memory Networks for Anomaly Detection in Time Series
+  >
+  > 
+  >
+  > <http://www.neural-forecasting.com/tutorials.htm>
+
+  
+
+  
+
++ Hybrid
+
+  > Time series forecasting using a hybrid ARIMA and neural network model 
+  >
+  > An artificial neural network (p,d,q) model for timeseries forecasting
+  >
+  > 
+
++ Forecast Combination
+
+  > paper: 
+  >
+  > Timmermann, Allan, 2006. "**Forecast Combinations**," [Handbook of Economic Forecasting](https://ideas.repec.org/s/eee/ecofch.html), Elsevier. [ppt](<http://www.oxford-man.ox.ac.uk/sites/default/files/events/combination_Sofie.pdf>) 
+  >
+  > A simple explanation of the forecast combination puzzle
+  >
+  > Combining time series models for forecasting
+  >
+  > Optimal combination forecasts for hierarchical time series
+
+
+
+### Strategy
 
 + Machine Learning Strategies for Time Series Prediction [slideshare](<https://www.slideshare.net/gbonte/machine-learning-strategies-for-time-series-prediction>) 
 
@@ -112,25 +197,34 @@
 
 + Training Strategies for Time Series: Learning for Prediction, Filtering, and Reinforcement Learning [thesis](www.cs.cmu.edu/~arunvenk/papers/thesis.pdf) 
 
-  
-
-### Q&A
-
-+ When to log transform a time series before fitting an ARIMA model [site](https://stats.stackexchange.com/questions/6330/when-to-log-transform-a-time-series-before-fitting-an-arima-model) 
-+ Don’t Put Lagged Dependent Variables in Mixed Models [site](<https://statisticalhorizons.com/lagged-dependent-variables>) 
 + 
 
-### application
+  
+
+### Application
 
 + Electricity
 
   Electricity price forecasting: A review of the state-of-the-art with a look into the future
 
+  Combined modeling for electric load forecasting with adaptive particle swarm optimization
+
 + Business
 
   Business Forecasting Practical Problems and Solutions, Edited by Michael Gilliland, Len Tashman, Udo Sglavo
 
+### Q&A
 
+- Is it unusual for the MEAN to outperform ARIMA? [site](<https://stats.stackexchange.com/questions/124955/is-it-unusual-for-the-mean-to-outperform-arima>)
+- When to log transform a time series before fitting an ARIMA model [site](https://stats.stackexchange.com/questions/6330/when-to-log-transform-a-time-series-before-fitting-an-arima-model) 
+- Don’t Put Lagged Dependent Variables in Mixed Models [site](<https://statisticalhorizons.com/lagged-dependent-variables>) 
+- Estimating same model over multiple time series [site](https://stats.stackexchange.com/questions/23036/estimating-same-model-over-multiple-time-series) 
+- Is it possible to do time-series clustering based on curve shape? [site](http://stats.stackexchange.com/questions/3331/is-it-possible-to-do-time-series-clustering-based-on-curve-shape?noredirect=1&lq=1)
+- Modelling longitudinal data where the effect of time varies in functional form between individuals [site](<https://stats.stackexchange.com/questions/2777/modelling-longitudinal-data-where-the-effect-of-time-varies-in-functional-form-b>) 
+- Why can't we use top-down methods in forecasting grouped time series? [site](<https://stats.stackexchange.com/questions/163520/why-cant-we-use-top-down-methods-in-forecasting-grouped-time-series?rq=1>) 
+- Proper way of using recurrent neural network for time series analysis [site](<https://stats.stackexchange.com/questions/8000/proper-way-of-using-recurrent-neural-network-for-time-series-analysis>) 
+- 
+- 
 
 ## Papers
 
@@ -146,6 +240,7 @@
 
 + A Survey on Nonparametric Time Series Analysis, Siegfried Heiler
 
++ Time-series clustering – A decade review
 + Segmenting Time Series: A Survey and Novel Approach
 
 
@@ -166,6 +261,7 @@
 
 + Analysis of Financial Time Series (3ed), Ruey S. Tsay [site](https://faculty.chicagobooth.edu/ruey.tsay/teaching/fts/) 
 + The Elements of Financial Econometrics [site](http://orfe.princeton.edu/~jqfan/fan/FinEcon.html) 
++ Nonlinear Time Series Nonparametric and Parametric Methods [site](http://orfe.princeton.edu/~jqfan/fan/nls.html)
 + Nonlinear Time Series Analysis
 
 ## Scholar
@@ -233,7 +329,7 @@
 
 + R package
 
-  [forecast](<https://github.com/robjhyndman/forecast>), [tsfeatures](<https://github.com/robjhyndman/tsfeatures>), tsDyn, ForecastCombinations, [forecastHybrid](https://github.com/ellisp/forecastHybrid) 
+  [forecast](<https://github.com/robjhyndman/forecast>), [tsfeatures](<https://github.com/robjhyndman/tsfeatures>), thief(Temporal Hierarchical Forecasting), tsDyn, ForecastCombinations, [forecastHybrid](https://github.com/ellisp/forecastHybrid), opera(Online Prediction by ExpeRt Aggregation) 
 
 + [prophet](https://github.com/facebookincubator/prophet)
 
@@ -243,9 +339,7 @@
 
   Framework for setting up predictive analytics services
 
-+ Forecast Pro for Windows
-
-  <http://people.duke.edu/~rnau/autofor.htm>
++ [Forecast Pro](https://www.forecastpro.com/) 
 
 + Autobox
 
@@ -257,6 +351,18 @@
 
 
 
++ Tensorflow
+
+  <https://github.com/tgjeon/TensorFlow-Tutorials-for-Time-Series>
+
+  <https://github.com/mouradmourafiq/tensorflow-lstm-regression>
+
++ Keras
+
+  <https://github.com/jaungiers/LSTM-Neural-Network-for-Time-Series-Prediction>
+
+  <https://machinelearningmastery.com/time-series-prediction-lstm-recurrent-neural-networks-python-keras/>
+
 
 
 ## Competitions
@@ -264,6 +370,7 @@
 + The M-competitions [dataset](http://robjhyndman.com/software/mcomp/) 
 + The Tourism Forecasting Competition [dataset](https://github.com/ellisp/Tcomp-r-package) 
 + Global Energy Forecasting Competition (GEFCom)
++ <http://www.neural-forecasting-competition.com/index.htm>
 
 
 
