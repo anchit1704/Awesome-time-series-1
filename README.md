@@ -12,6 +12,7 @@
 6. [Tools](#Tools)
 7. [Competitions](#Competitions)
 8. [Datasets](#Datasets)
+9. [Related](#Related)
 
 ## Challenges
 
@@ -33,7 +34,8 @@
 2. [feature](#feature)
 3. [visualization](#visualization)
 4. [model](#model)
-5. [application](#application)
+5. [strategy](#strategy)
+6. [application](#application)
 
 ### property
 
@@ -44,11 +46,23 @@
 
 ### feature
 
-Paper: Automatic Identification of Time Series Features for Rule-Based Forecasting
++ time series feature:
 
-http://forecastingprinciples.com/index.php/features-of-time-series
+  http://forecastingprinciples.com/index.php/features-of-time-series
 
 
+
++ feature extraction
+
+  Paper: Automatic Identification of Time Series Features for Rule-Based Forecasting
+
+
+
++ feature selection
+
+  Paper: Feature selection for time series prediction – A combined filter and wrapper approach for neural networks
+
+  
 
 ### visualization
 
@@ -76,9 +90,22 @@ http://forecastingprinciples.com/index.php/features-of-time-series
 
 
 
+### strategy
+
++ Machine Learning Strategies for Time Series Prediction [slideshare](<https://www.slideshare.net/gbonte/machine-learning-strategies-for-time-series-prediction>) 
++ Machine learning strategies for multi-step-ahead time series forecasting [PhD thesis](http://souhaib-bentaieb.com/pdf/2014_phd.pdf)
++ Training Strategies for Time Series: Learning for Prediction, Filtering, and Reinforcement Learning [thesis](www.cs.cmu.edu/~arunvenk/papers/thesis.pdf) 
++ 
+
 ### application
 
++ Electricity
 
+  Electricity price forecasting: A review of the state-of-the-art with a look into the future
+
++ Business
+
+  Business Forecasting Practical Problems and Solutions, Edited by Michael Gilliland, Len Tashman, Udo Sglavo
 
 
 
@@ -227,6 +254,14 @@ http://forecastingprinciples.com/index.php/features-of-time-series
   A self-organizing database of time-series data
 
   <https://www.comp-engine.org/#!>
+
+
+
+## Related
+
++ Signal Processing
+
+  > time frequency analysis, fourier analysis, wavelets,...
 
 
 
