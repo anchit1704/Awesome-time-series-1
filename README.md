@@ -63,9 +63,9 @@
 
 ### Architecture
 
-<div align="center">
-<img src="http://people.duke.edu/~rnau/411flow.gif" width="500" height="600" alt="flow-chat"></img>
-</div>
+[timeseries structure design](<https://github.com/bifeng/Awesome-time-series/blob/master/summary/1timeseries-structure-design-for-training-new.xlsx>)
+
+> summary from the competitions experience.
 
 ### Property
 
@@ -146,6 +146,12 @@
 
 + feature extraction/transformation
 
+  > [time-based feature construction](<https://github.com/bifeng/Awesome-time-series/blob/master/summary/1time-based-feature-construction.xlsx>) [part1](<https://github.com/bifeng/Awesome-time-series/blob/master/summary/1time-based feature construction-part1.docx>) [part2](<https://github.com/bifeng/Awesome-time-series/blob/master/summary/1time-based feature construction-part2.docx>) [part3](<https://github.com/bifeng/Awesome-time-series/blob/master/summary/1time-based feature construction-part3.doc>)
+  >
+  > summary from the competitions experience.
+  >
+  > 
+  >
   > Automatic Identification of Time Series Features for Rule-Based Forecasting
   >
   > Distributed and parallel time series feature extraction for industrial big data applications
