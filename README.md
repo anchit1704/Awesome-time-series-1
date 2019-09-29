@@ -4,16 +4,37 @@
 
 ## Contents
 
-1. [Challenges](#Challenges)
-2. [Tutorials](#Tutorials)
-3. [Books](#Books)
-4. [Papers](#Papers)
-5. [Conference](#Conference)
-6. [Scholar](#Scholar)
-7. [Tools](#Tools)
+1. [Related](#Related)
+2. [Challenges](#Challenges)
+3. [Tutorials](#Tutorials)
+4. [Books](#Books)
+5. [Papers](#Papers)
+6. [Conference](#Conference)
+7. [Scholar](#Scholar)
 8. [Competitions](#Competitions)
 9. [Datasets](#Datasets)
-10. [Related](#Related)
+10. [Tools](#Tools)
+
+---
+
+## Related
+
+- Information Theory
+
+- Signal Processing/Digital Signal Processing
+
+  > time frequency analysis, fourier analysis, wavelets,...
+
+- Audio Content Analysis
+
+  > fundamentals of sound and time-frequency
+  > representations, periodicity detection, novelty detection, sound classification, ...
+  >
+  > <http://www.nyu.edu/classes/bello/Teaching.html>
+
+- Dynamical Systems Theory
+
+---
 
 ## Challenges
 
@@ -49,6 +70,8 @@
 
   > https://www.zhihu.com/question/26464548
 
+---
+
 ## Tutorials
 
 1. [Architecture](#Architecture)
@@ -61,11 +84,15 @@
 8. [Application](#Application)
 9. [Q&A](#Q&A)
 
+---
+
 ### Architecture
 
 [timeseries structure design](<https://github.com/bifeng/Awesome-time-series/blob/master/summary/1timeseries-structure-design-for-training-new.xlsx>)
 
 > summary from the competitions experience.
+
+---
 
 ### Property
 
@@ -128,6 +155,8 @@
   >
   > https://www.joperea.com/
 
+---
+
 ### Feature
 
 + data transformation
@@ -160,9 +189,13 @@
 
   > Feature selection for time series prediction – A combined filter and wrapper approach for neural networks
 
+---
+
 ### Visualization
 
 + Recurrence Plots
+
+---
 
 ### Model
 
@@ -246,13 +279,9 @@
 
 + ARDL(Auto Regressive Distributed Lag) [blog](<http://blog.eviews.com/2017/04/autoregressive-distributed-lag-ardl.html>) 
 
-  
-
 + Dynamic Regression Models
 
 + ...
-
-  
 
 + SVM
 
@@ -314,6 +343,8 @@
   >
   > Optimal combination forecasts for hierarchical time series
 
+---
+
 ### Strategy
 
 + Machine Learning Strategies for Time Series Prediction [slideshare](<https://www.slideshare.net/gbonte/machine-learning-strategies-for-time-series-prediction>) 
@@ -343,6 +374,8 @@
   > Better prediction intervals for time series forecasts
   >
   > Prediction intervals for ensemble time series forecasts
+
+---
 
 ### Topic
 
@@ -424,6 +457,8 @@
   >
   > Time-series novelty detection using one-class support vector machines
 
+---
+
 ### Application
 
 + Electricity
@@ -445,6 +480,8 @@
 + Business
 
   Business Forecasting Practical Problems and Solutions, Edited by Michael Gilliland, Len Tashman, Udo Sglavo
+
+---
 
 ### Q&A
 
@@ -496,7 +533,8 @@
 
 - Interpretation of mean absolute scaled error (MASE) - Cross Validated
 
-  
+
+---
 
 ## Papers
 
@@ -506,6 +544,8 @@
 + A review on time series data mining, Tak Chung Fu
 + A Survey on Nonparametric Time Series Analysis, Siegfried Heiler
 + Segmenting Time Series: A Survey and Novel Approach
+
+---
 
 ## Books
 
@@ -536,9 +576,13 @@
 + Nonlinear Time Series Nonparametric and Parametric Methods [site](http://orfe.princeton.edu/~jqfan/fan/nls.html)
 + Nonlinear Time Series Analysis
 
+---
+
 ## Conference
 
 + <https://forecasters.org/>
+
+---
 
 ## Scholar
 
@@ -582,8 +626,6 @@
 
   > Dynamic time warping
 
-  
-
 + Rob J Hyndman [blog](<https://robjhyndman.com/>) [github](https://github.com/robjhyndman) :star::star::star::star::star:
 
   > Some interesting topics on the blog: forecast intervals for aggregates (the aggregate of several time periods), fitting models to short time series, fitting models to long time series, forecasting weekly data, forecasting with daily data, forecasting with long seasonal periods, seasonal periods, rolling forecasts, batch forecasting, facts and fallacies of the AIC, cross-validation, ...
@@ -598,43 +640,7 @@
   >
   > Some interesting topics on the blog: forecasting and backcasting,...
 
-## Tools
-
-+ R package
-
-  [forecast](<https://github.com/robjhyndman/forecast>), [tsfeatures](<https://github.com/robjhyndman/tsfeatures>), thief(Temporal Hierarchical Forecasting), tsDyn, ForecastCombinations, [forecastHybrid](https://github.com/ellisp/forecastHybrid), opera(Online Prediction by ExpeRt Aggregation) 
-
-+ [prophet](https://github.com/facebookincubator/prophet)
-
-+ [tsfresh](https://github.com/blue-yonder/tsfresh)
-
-+ [palladium](https://github.com/ottogroup/palladium)
-
-  Framework for setting up predictive analytics services
-
-+ [Forecast Pro](https://www.forecastpro.com/) 
-
-+ Autobox
-
-+ [TISEAN](https://www.pks.mpg.de/~tisean/Tisean_3.0.1/index.html) - Nonlinear Time Series Analysis
-
-+ Timeseries analysis for neuroscience data <http://nipy.org/nitime>
-
-  <https://github.com/nipy/nitime>
-
-+ Tensorflow
-
-  <https://github.com/tgjeon/TensorFlow-Tutorials-for-Time-Series>
-
-  <https://github.com/mouradmourafiq/tensorflow-lstm-regression>
-
-+ Keras
-
-  <https://github.com/jaungiers/LSTM-Neural-Network-for-Time-Series-Prediction>
-
-  <https://github.com/cauchyturing/UCR_Time_Series_Classification_Deep_Learning_Baseline>
-
-  <https://machinelearningmastery.com/time-series-prediction-lstm-recurrent-neural-networks-python-keras/>
+---
 
 ## Competitions
 
@@ -642,6 +648,8 @@
 + The Tourism Forecasting Competition [dataset](https://github.com/ellisp/Tcomp-r-package) 
 + Global Energy Forecasting Competition (GEFCom)
 + <http://www.neural-forecasting-competition.com/index.htm>
+
+---
 
 ## Datasets
 
@@ -654,22 +662,42 @@
 
   <https://www.comp-engine.org/#!>
 
-## Related
+---
 
-+ Information Theory
+## Tools
 
-+ Signal Processing/Digital Signal Processing
+- R package
 
-  > time frequency analysis, fourier analysis, wavelets,...
+  [forecast](<https://github.com/robjhyndman/forecast>), [tsfeatures](<https://github.com/robjhyndman/tsfeatures>), thief(Temporal Hierarchical Forecasting), tsDyn, ForecastCombinations, [forecastHybrid](https://github.com/ellisp/forecastHybrid), opera(Online Prediction by ExpeRt Aggregation) 
 
-+ Audio Content Analysis
+- [prophet](https://github.com/facebookincubator/prophet)
 
-  > fundamentals of sound and time-frequency
-  > representations, periodicity detection, novelty detection, sound classification, ...
-  >
-  > <http://www.nyu.edu/classes/bello/Teaching.html>
+- [tsfresh](https://github.com/blue-yonder/tsfresh)
 
-+ Dynamical Systems Theory
+- [palladium](https://github.com/ottogroup/palladium)
 
+  Framework for setting up predictive analytics services
 
+- [Forecast Pro](https://www.forecastpro.com/) 
 
+- Autobox
+
+- [TISEAN](https://www.pks.mpg.de/~tisean/Tisean_3.0.1/index.html) - Nonlinear Time Series Analysis
+
+- Timeseries analysis for neuroscience data <http://nipy.org/nitime>
+
+  <https://github.com/nipy/nitime>
+
+- Tensorflow
+
+  <https://github.com/tgjeon/TensorFlow-Tutorials-for-Time-Series>
+
+  <https://github.com/mouradmourafiq/tensorflow-lstm-regression>
+
+- Keras
+
+  <https://github.com/jaungiers/LSTM-Neural-Network-for-Time-Series-Prediction>
+
+  <https://github.com/cauchyturing/UCR_Time_Series_Classification_Deep_Learning_Baseline>
+
+  <https://machinelearningmastery.com/time-series-prediction-lstm-recurrent-neural-networks-python-keras/>
