@@ -179,7 +179,7 @@
   >
   > summary from the competitions experience.
   >
-  > 
+  >
   >
   > Automatic Identification of Time Series Features for Rule-Based Forecasting
   >
@@ -359,6 +359,8 @@
 
 + Cross-Validation
 
+  > [Time Series Nested Cross-Validation](<https://towardsdatascience.com/time-series-nested-cross-validation-76adba623eb9>)
+  >
   > On the use of cross-validation for time series predictor evaluation
   >
   > A note on the validity of cross-validation for evaluating autoregressive time series prediction
@@ -532,7 +534,6 @@
 - Time Series Nested Cross-Validation – Towards Data Science
 
 - Interpretation of mean absolute scaled error (MASE) - Cross Validated
-
 
 ---
 
