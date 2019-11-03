@@ -676,6 +676,8 @@
 
   [forecast](<https://github.com/robjhyndman/forecast>), [tsfeatures](<https://github.com/robjhyndman/tsfeatures>), thief(Temporal Hierarchical Forecasting), tsDyn, ForecastCombinations, [forecastHybrid](https://github.com/ellisp/forecastHybrid), opera(Online Prediction by ExpeRt Aggregation) 
 
+- [awesome_time_series_in_python](https://github.com/MaxBenChrist/awesome_time_series_in_python) 
+
 - [prophet](https://github.com/facebookincubator/prophet)
 
 - [tsfresh](https://github.com/blue-yonder/tsfresh)
