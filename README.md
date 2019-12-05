@@ -547,6 +547,10 @@
 + A Survey on Nonparametric Time Series Analysis, Siegfried Heiler
 + Segmenting Time Series: A Survey and Novel Approach
 
+### Paperlist
+
++ https://github.com/bighuang624/Time-Series-Papers
+
 ---
 
 ## Books
