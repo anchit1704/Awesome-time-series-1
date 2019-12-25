@@ -97,6 +97,10 @@
 
 ### Property
 
++ Random Walk
+
+  > <https://www.kaggle.com/thebrownviking20/everything-you-can-do-with-a-time-series/>
+
 + Stationary
 
   > mean stationary, variance stationary
@@ -459,6 +463,14 @@
   > <https://anomaly.io/about/index.html>
   >
   > Time-series novelty detection using one-class support vector machines
+  
++ time space
+
+  > 大佬用四句五个字来概括了这个领域的整体问题：
+  > 空间不变性 
+  > 空间可变性 
+  > 时间不变性 
+  > 时间可变性
 
 ---
 
@@ -645,6 +657,14 @@
   > Course: Electric Load Forecasting I: Fundamentals and Best Practices, Electric Load Forecasting II: Advanced Topics and Case Studies
   >
   > Some interesting topics on the blog: forecasting and backcasting,...
+  
++ 施行建
+
+  香港中文大学。主要研究的方向是时空序列问题，时间维度为主，并且降水预测的应用。
+
++ 郑宇
+
+  JD的副总裁。主要研究时空序列数据挖掘，空间维度为主，并且用在traffic flow上的应用。主页：http://urban-computing.com/yuzheng
 
 ---
 
