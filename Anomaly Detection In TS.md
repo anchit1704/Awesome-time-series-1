@@ -1,8 +1,8 @@
 ## Contents
 
 1. [Related](#Related)
-2. [Challenges](#Challenges)
 3. [Papers](#Papers)
+3. [Tutorials](#Tutorials)
 4. [Tools](#Tools)
 
 ---
