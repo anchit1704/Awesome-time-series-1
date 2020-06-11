@@ -159,6 +159,14 @@
   > Persistent Homology of Sliding Window Point Clouds
   >
   > https://www.joperea.com/
+  
++ time space
+
+  > 大佬用四句五个字来概括了这个领域的整体问题：
+  > 空间不变性 
+  > 空间可变性 
+  > 时间不变性 
+  > 时间可变性
 
 ---
 
@@ -277,9 +285,11 @@
   > 如何在第一次天池比赛中进入Top 5%（一） - 知乎专栏
 
 + X13-SEATS-ARIMA
+
 + TBATS
 
 + ARIMAX
+
 + ARX-ARMAX
 
 + ARDL(Auto Regressive Distributed Lag) [blog](<http://blog.eviews.com/2017/04/autoregressive-distributed-lag-ardl.html>) 
@@ -331,6 +341,12 @@
   > LSTM:
   >
   > Long Short Term Memory Networks for Anomaly Detection in Time Series
+
++ Deep Learning
+
+  > Time2Vec: Learning a Vector Representation of Time [arxiv](<https://arxiv.org/abs/1907.05321>) [blog](<https://towardsdatascience.com/time2vec-for-time-series-features-encoding-a03a4f3f937e>) 
+  >
+  > Deep Transformer Models for Time Series Forecasting: The Influenza Prevalence Case. N Wu, B Green, X Ben, S O'Banion [Google] (2020) [arxiv](<https://arxiv.org/abs/2001.08317>) 
 
 + Hybrid
 
@@ -442,35 +458,6 @@
 
   > Highly comparative feature-based time-series classification
 
-+ Anomaly Detection
-
-  > Outlier Detection for Temporal Data: A Survey
-  >
-  > Outlier Detection for Temporal Data, Manish Gupta, Microsoft India and IIIT, Jing Gao, SUNY, Buffalo, Charu Aggarwal, IBM TJ Watson, Jiawei Han, UIUC - book
-  >
-  > https://github.com/rob-med/awesome-TS-anomaly-detection
-  >
-  > http://stats.stackexchange.com/questions/137094/algorithms-for-time-series-anomaly-detection
-  >
-  > Time Series Anomaly Detection Algorithms – Stats and Bots
-  >
-  > <https://github.com/twitter/AnomalyDetection>
-  >
-  > https://github.com/twitter/BreakoutDetection
-  >
-  > Anomaly Detection for Airbnb's Payment Platform - Airbnb Engineering
-  >
-  > <https://anomaly.io/about/index.html>
-  >
-  > Time-series novelty detection using one-class support vector machines
-  
-+ time space
-
-  > 大佬用四句五个字来概括了这个领域的整体问题：
-  > 空间不变性 
-  > 空间可变性 
-  > 时间不变性 
-  > 时间可变性
 
 ---
 
@@ -552,6 +539,9 @@
 
 ## Papers
 
++ https://github.com/bighuang624/Time-Series-Papers
++ <https://github.com/fengyang95/Awesome-Deep-Learning-Based-Time-Series-Forecasting>
+
 ### Literature Review
 
 + 25 Years of Time Series Forecasting, Jan G De Gooijer, Rob J Hyndman
@@ -562,6 +552,7 @@
 ### Paperlist
 
 + https://github.com/bighuang624/Time-Series-Papers
++ ’Deep Learning Time Series Forecasting - List of papers, code and experiments using deep learning for time series forecasting' by Alexander Robles [GitHub](<https://github.com/Alro10/deep-learning-time-series>)   
 
 ---
 
@@ -599,6 +590,9 @@
 ## Conference
 
 + <https://forecasters.org/>
++ 
++ [ISF](https://isf.forecasters.org/)
++ 
 
 ---
 
@@ -670,6 +664,19 @@
 
 ## Competitions
 
++ [Walmart Store Sales Forecasting (2014)](https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting)
++ [Walmart Sales in Stormy Weather (2015)](https://www.kaggle.com/c/walmart-recruiting-sales-in-stormy-weather)
++ [Rossmann Store Sales (2015)](https://www.kaggle.com/c/rossmann-store-sales)
++ [Wikipedia Web Traffic Forecasting (2017)](https://www.kaggle.com/c/web-traffic-time-series-forecasting)
++ [Corporación Favorita Grocery Sales Forecasting (2018)](https://www.kaggle.com/c/favorita-grocery-sales-forecasting)
++ [Recruit Restaurant Visitor Forecasting (2018)](https://www.kaggle.com/c/recruit-restaurant-visitor-forecasting) 
++ [VSB Power Line Fault Detection (2019)](<https://www.kaggle.com/c/vsb-power-line-fault-detection/overview>) 
++ M4 competition [code](https://github.com/Mcompetitions/M4-methods) 
+  - [The M4 Competition: 100,000 time series and 61 forecasting methods](https://www.sciencedirect.com/science/article/pii/S0169207019301128)
+  - [A hybrid method of exponential smoothing and recurrent neural networks for time series forecasting](https://www.sciencedirect.com/science/article/pii/S0169207019301153)
+  - [Weighted ensemble of statistical models](https://www.sciencedirect.com/science/article/pii/S0169207019301190#b5)
+  - [FFORMA: Feature-based forecast model averaging](https://www.sciencedirect.com/science/article/pii/S0169207019300895)
++ [M5 Competition](https://mofc.unic.ac.cy/m5-competition/) [code](<https://github.com/Mcompetitions/M5-methods>) 
 + The M-competitions [dataset](http://robjhyndman.com/software/mcomp/) 
 + The Tourism Forecasting Competition [dataset](https://github.com/ellisp/Tcomp-r-package) 
 + Global Energy Forecasting Competition (GEFCom)
@@ -698,11 +705,13 @@
 
 ## Tools
 
-- R package
+- R 
 
-  [forecast](<https://github.com/robjhyndman/forecast>), [tsfeatures](<https://github.com/robjhyndman/tsfeatures>), thief(Temporal Hierarchical Forecasting), tsDyn, ForecastCombinations, [forecastHybrid](https://github.com/ellisp/forecastHybrid), opera(Online Prediction by ExpeRt Aggregation) 
+  + [forecast](<https://github.com/robjhyndman/forecast>), [tsfeatures](<https://github.com/robjhyndman/tsfeatures>), thief(Temporal Hierarchical Forecasting), tsDyn, ForecastCombinations, [forecastHybrid](https://github.com/ellisp/forecastHybrid), opera(Online Prediction by ExpeRt Aggregation) 
 
-- [awesome_time_series_in_python](https://github.com/MaxBenChrist/awesome_time_series_in_python) 
+- Python
+
+  - [awesome_time_series_in_python](https://github.com/MaxBenChrist/awesome_time_series_in_python) 
 
 - [prophet](https://github.com/facebookincubator/prophet)
 
